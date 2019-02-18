@@ -51,7 +51,7 @@ $(".close-button").click(function() {
   closeButton.css("display", "none");
 });
 
-// Random Dogs Pics
+// Random Dogs Pics. (TO DO: Error validation is not available yet - TBC)
 
 $(".btn-dogpics").click(function() {
   $.ajax({
